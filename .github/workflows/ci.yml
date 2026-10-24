@@ -1,0 +1,17 @@
+name: lightweight-public-candidate
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.10', '3.11', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python -m pip install . pytest==8.4.2
+      - run: python -m pytest -q tests release_tests
+      - run: python release_tests/verify_release.py
+# Test only: no publishing credentials, upload action or release action.

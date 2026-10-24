@@ -1,0 +1,46 @@
+{
+  "files": {
+    "README.md": {
+      "bytes": 772,
+      "sha256": "58be5e2c60204c037dabeef1e6866983e8beca27223a6ccd8e9e332ccdcdc8e9",
+      "upstream_lfs_sha256": null
+    },
+    "config.json": {
+      "bytes": 781,
+      "sha256": "c3c0da9b7059b6ab37f005d2d86cfea11996e28a20b2f28caea0f873e2a747a2",
+      "upstream_lfs_sha256": null
+    },
+    "merges.txt": {
+      "bytes": 456318,
+      "sha256": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+      "upstream_lfs_sha256": null
+    },
+    "model.safetensors": {
+      "bytes": 498612824,
+      "sha256": "df503e4b86bca6b9d2fb2967a9933543f98923eb92bde624570135043de40d03",
+      "upstream_lfs_sha256": "df503e4b86bca6b9d2fb2967a9933543f98923eb92bde624570135043de40d03"
+    },
+    "special_tokens_map.json": {
+      "bytes": 280,
+      "sha256": "06e405a36dfe4b9604f484f6a1e619af1a7f7d09e34a8555eb0b77b66318067f",
+      "upstream_lfs_sha256": null
+    },
+    "tokenizer.json": {
+      "bytes": 2108643,
+      "sha256": "6e6a06a662f8bce9823abd4c2cda07dcb7e07a84153a2ed190b8d901516b3162",
+      "upstream_lfs_sha256": null
+    },
+    "tokenizer_config.json": {
+      "bytes": 1215,
+      "sha256": "cab32109624013c709099c929de7ae9ddc2abb8905225a9d5373c674a6fea68c",
+      "upstream_lfs_sha256": null
+    },
+    "vocab.json": {
+      "bytes": 798293,
+      "sha256": "ed19656ea1707df69134c4af35c8ceda2cc9860bf2c3495026153a133670ab5e",
+      "upstream_lfs_sha256": null
+    }
+  },
+  "repo": "JingweiNi/roberta-base-afacta",
+  "revision": "5db3f67d68e384d486a08d26e0c180a483efa164"
+}

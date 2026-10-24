@@ -1,0 +1,45 @@
+{
+  "schema_version": "claimreplay.llm-priority-protocol.v1",
+  "status": "frozen_before_benchmark_inference",
+  "role": "exploratory_policy_extension",
+  "model": "gpt-5.4-mini-2026-03-17",
+  "provider": "openai",
+  "endpoint": "https://api.openai.com/v1/responses",
+  "official_model_documentation": "https://developers.openai.com/api/docs/models/gpt-5.4-mini",
+  "prompt_path": "prompts/priority.txt",
+  "output_schema": {
+    "type": "object",
+    "properties": {
+      "priority_score": {"type": "integer", "minimum": 0, "maximum": 100}
+    },
+    "required": ["priority_score"],
+    "additionalProperties": false
+  },
+  "request": {
+    "reasoning_effort": "none",
+    "max_output_tokens": 32,
+    "store": false,
+    "temperature": "not_requested",
+    "timeout_seconds": 60,
+    "concurrency": 4,
+    "retry_attempts": 5,
+    "seed": "not_supported_or_requested"
+  },
+  "information_regime": "claim_text_only_pointwise",
+  "score_direction": "higher_means_higher_human_review_priority",
+  "tie_break": "lexicographic_unit_id",
+  "conditions": ["without_prediction", "with_prediction", "webassess"],
+  "condition_pooling_forbidden": true,
+  "budgets": [0.05, 0.1, 0.2],
+  "budget_rounding": "ceil_per_response",
+  "evaluation_task": "review_need_detection",
+  "random_seed": 47,
+  "execution_ceiling": {
+    "maximum_unique_requests": 14000,
+    "maximum_planned_tokens_per_run": 2400000
+  },
+  "prohibited_inputs": [
+    "gold_labels", "human_assessments", "oracle_selections", "judge_labels",
+    "existing_policy_scores", "topic_results", "benchmark_identifiers", "native_provenance"
+  ]
+}

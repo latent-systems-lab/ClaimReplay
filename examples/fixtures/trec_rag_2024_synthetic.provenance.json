@@ -1,0 +1,14 @@
+{
+  "fixture_kind": "authored_synthetic_contract_fixture",
+  "redistribution": "Project-authored synthetic data; contains no TREC responses, judgments, topics, citations, or MS MARCO identifiers.",
+  "generator": "scripts/make_synthetic_trec_fixture.py",
+  "response_count": 10,
+  "topic_count": 5,
+  "run_count": 2,
+  "support_counts": {
+    "FULL_SUPPORT": 10,
+    "PARTIAL_SUPPORT": 10,
+    "NO_SUPPORT": 10,
+    "UNASSESSED": 10
+  }
+}

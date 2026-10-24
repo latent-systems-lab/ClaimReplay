@@ -1,0 +1,16 @@
+# No DOI, paper acceptance or release date is asserted.
+cff-version: 1.2.0
+message: 'If you use ClaimReplay, please cite this software using these metadata.'
+type: software
+title: 'ClaimReplay: A Reusable Evaluation Resource for Budgeted Verification of Generated Answers'
+version: 0.6.0rc2
+authors:
+  - family-names: 'Bańka'
+    given-names: 'Feliks'
+    affiliation: 'Institute of Computer Science, Faculty of Electronics and Information Technology, Warsaw University of Technology, 00-661 Warsaw, Poland'
+  - family-names: 'Chudziak'
+    given-names: 'Jarosław A.'
+    affiliation: 'Institute of Computer Science, Faculty of Electronics and Information Technology, Warsaw University of Technology, 00-661 Warsaw, Poland'
+repository-code: 'https://github.com/latent-systems-lab/ClaimReplay'
+
+license: Apache-2.0

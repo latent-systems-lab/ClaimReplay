@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools==80.9.0", "wheel==0.45.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "claimreplay"
+version = "0.6.0rc2"
+license = "Apache-2.0"
+authors = [
+  {name = "Feliks Bańka"},
+  {name = "Jarosław A. Chudziak"},
+]
+description = "Fixed-response replay for budgeted verification of LLM and RAG responses."
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest==8.4.2"]
+pilot = ["matplotlib==3.10.9"]
+evidence = ["torch==2.5.1", "transformers==4.46.3", "sentencepiece==0.2.0", "protobuf==5.28.3"]
+
+[project.scripts]
+claimreplay = "claimreplay.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["claimreplay*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.setuptools]
+license-files = ["LICENSE", "NOTICE"]
+
+[project.urls]
+Repository = "https://github.com/latent-systems-lab/ClaimReplay"
+Issues = "https://github.com/latent-systems-lab/ClaimReplay/issues"

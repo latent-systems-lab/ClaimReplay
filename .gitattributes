@@ -1,0 +1,3 @@
+# Frozen prompts, protocols and manifests bind exact bytes, including line endings.
+# Never normalize them implicitly during Git import or checkout on another OS.
+* -text

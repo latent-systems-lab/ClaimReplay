@@ -1,0 +1,34 @@
+{
+  "afacta_manifest": {
+    "path": "configs/afacta_assets.json",
+    "sha256": "cbc9e1ec5a1db6bac175fb63936389a0e409c3ff09f45b28f43083f7ed699b07"
+  },
+  "afacta_model_dir": "models/afacta",
+  "evidence": {},
+  "judge_prompt": {
+    "path": "prompts/support_judge.txt",
+    "sha256": "87832f5949d17f8cf8db89f43b07f1b301f24f0424b10546cbb6d4906548fa43"
+  },
+  "judge_protocol": {
+    "path": "configs/judge_protocol.json",
+    "sha256": "a41e30e5fa91c7ac32d8b91acccdf1081d71c7870e2a6919a7957341eb9d398f"
+  },
+  "model": "gpt-5.4-mini-2026-03-17",
+  "native_config": {
+    "path": "configs/campaign_toy_native.json",
+    "sha256": "30d94b5df76bf65df5c3a86e4c0e61cead254d8e4b58d8ba230b19454415a94b"
+  },
+  "nli_manifest": {
+    "path": "configs/nli_assets.json",
+    "sha256": "cbca9c0537a39c157b7e66f718a1dda4461399e977383f71c4df54d5f5d8bbaa"
+  },
+  "priority_prompt": {
+    "path": "prompts/priority.txt",
+    "sha256": "0a679fb1dd5a712b72ff17b7b410091f7109dff8cf348e138f1b106bb1ce72e6"
+  },
+  "priority_protocol": {
+    "path": "configs/priority_protocol.json",
+    "sha256": "7e5ac48d59e351745e445f625b0087a712593141c6d8ba9946091e55043b8e2a"
+  },
+  "schema_version": "claimreplay.fresh-inference.v1"
+}

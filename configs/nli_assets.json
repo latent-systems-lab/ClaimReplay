@@ -1,0 +1,46 @@
+{
+  "files": {
+    ".gitattributes": {
+      "bytes": 1229,
+      "sha256": "98ccb431c012ebfe976280fbd45aea4cec7409935868ccecf3954370f96732a1"
+    },
+    "CESoftmaxAccuracyEvaluator_AllNLI-dev_results.csv": {
+      "bytes": 682,
+      "sha256": "145e4383bab068470215d3d70486719c90b4af425c0ba90d62a068e1ee2f9ba9"
+    },
+    "README.md": {
+      "bytes": 2777,
+      "sha256": "1cd17b0fb22fc1f3791a52d23a333a8fd9215945e046c7b32de1d167dde4c0f6"
+    },
+    "added_tokens.json": {
+      "bytes": 18,
+      "sha256": "cd0141b19e809eb963a8f8244fad72530233f729e1f6960d281e1fbb3537b2fb"
+    },
+    "config.json": {
+      "bytes": 1052,
+      "sha256": "897e756eb59d3183adb505952e7910e7cbc7750a43f3b3747a96b688d2b02a47"
+    },
+    "model.safetensors": {
+      "bytes": 737726552,
+      "sha256": "d8148c6d49e0a7925134294c56326c71fe0ab1dc390e37355e00c7efbb488afa"
+    },
+    "pytorch_model.bin": {
+      "bytes": 737790098,
+      "sha256": "947f94dbf29b60831cc4c043e6c4449cf88c6f82843e9b857438b2a8967d2cb8"
+    },
+    "special_tokens_map.json": {
+      "bytes": 156,
+      "sha256": "fcfbeb4e25cd37fb5b8030406394253b245230fd3b552750092bab7d24d827da"
+    },
+    "spm.model": {
+      "bytes": 2464616,
+      "sha256": "c679fbf93643d19aab7ee10c0b99e460bdbc02fedf34b92b05af343b4af586fd"
+    },
+    "tokenizer_config.json": {
+      "bytes": 417,
+      "sha256": "26b4861bf1657f489ccf44710818de7275229a53aa7f49f2e07a5ff7224deded"
+    }
+  },
+  "repo": "cross-encoder/nli-deberta-v3-base",
+  "revision": "0233b6e1207aa367aa01ac84abd8efecc842f2d1"
+}

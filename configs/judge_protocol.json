@@ -1,0 +1,47 @@
+{
+  "schema_version": "claimreplay.evidence-judge-protocol.v1",
+  "status": "frozen_before_benchmark_inference",
+  "role": "surrogate_judge_sensitivity_only",
+  "model": "gpt-5.4-mini-2026-03-17",
+  "provider": "openai",
+  "endpoint": "https://api.openai.com/v1/responses",
+  "official_model_documentation": "https://developers.openai.com/api/docs/models/gpt-5.4-mini",
+  "prompt_path": "prompts/support_judge.txt",
+  "output_schema": {
+    "type": "object",
+    "properties": {
+      "support_label": {
+        "type": "string",
+        "enum": ["FULL_SUPPORT", "PARTIAL_SUPPORT", "NO_SUPPORT", "ABSTAIN"]
+      }
+    },
+    "required": ["support_label"],
+    "additionalProperties": false
+  },
+  "request": {
+    "reasoning_effort": "none",
+    "max_output_tokens": 32,
+    "store": false,
+    "temperature": "not_requested",
+    "timeout_seconds": 60,
+    "concurrency": 4,
+    "retry_attempts": 5
+  },
+  "information_regime": "claim_plus_original_first_cited_evidence",
+  "later_citation_substitution": false,
+  "missing_evidence_behavior": "record_missing_and_do_not_infer",
+  "human_comparison_population": "officially_assessed_units_with_valid_llm_judgment",
+  "unassessed_units": "not_human_reference_labels",
+  "abstention_mapping": "excluded_from_valid_judge_label_metrics_and_reported_separately",
+  "conditions": ["without_prediction", "with_prediction", "webassess"],
+  "condition_pooling_forbidden": true,
+  "execution_ceiling": {
+    "maximum_unique_requests_per_run": 8000,
+    "maximum_planned_tokens_per_run": 2400000,
+    "deterministic_sharding": "sha256_request_hash_mod_shard_count"
+  },
+  "prohibited_inputs": [
+    "human_support_label", "oracle_decision", "policy_ranking", "selection_status",
+    "evaluation_score", "topic_result", "priority_score"
+  ]
+}

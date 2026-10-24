@@ -1,0 +1,10 @@
+{
+  "budgets": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "schema_version": "claimreplay.reproduction.v1",
+  "seed": 47,
+  "synthetic": "examples/fixtures/campaign_toy.json"
+}

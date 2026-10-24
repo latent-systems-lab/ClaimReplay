@@ -1,0 +1,11 @@
+ClaimReplay 0.6.0rc2
+Software authors: Feliks Bańka and Jarosław A. Chudziak.
+Institute of Computer Science, Faculty of Electronics and Information Technology,
+Warsaw University of Technology, 00-661 Warsaw, Poland.
+
+Original ClaimReplay software is licensed under Apache License 2.0 (LICENSE).
+Third-party datasets, models and outputs do not acquire this license by reference.
+Build-tool wheels retain their embedded upstream licenses and notices.
+No native dataset text, native gold labels, model weights, private provider dumps
+or per-unit Oracle results are part of this software distribution.
+See DATA_ACCESS.md for separate acquisition requirements and third-party terms.

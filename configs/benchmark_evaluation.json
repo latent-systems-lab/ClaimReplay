@@ -1,0 +1,68 @@
+{
+  "budgets": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "controlled": {
+    "datasets": {
+      "feverous": {
+        "cap": 1000,
+        "claims": "feverous/train.jsonl",
+        "claims_sha256": "0c29ccba41e27c5b988ca5132085e8d67c7921f265707bea170bfbde12bceee7",
+        "expected_native_count": 71291,
+        "identification": "historical acquisition; split identified by exact official count/label distribution, not fresh upstream byte verification",
+        "split": "train"
+      },
+      "scifact": {
+        "cap": null,
+        "claims": "scifact/claims_dev.jsonl",
+        "claims_sha256": "86f0435d08fdb65d1aa41d1472684f57e6e71930626497bdf4d7a9ec1a632217",
+        "corpus": "scifact/corpus.jsonl",
+        "corpus_sha256": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "expected_native_count": 300,
+        "split": "dev"
+      }
+    },
+    "queue_sizes": [
+      20,
+      40
+    ],
+    "seed": 47,
+    "targets": [
+      "native_non_support",
+      "native_refutation"
+    ]
+  },
+  "schema_version": "claimreplay.reproduction.v1",
+  "seed": 47,
+  "trec": {
+    "webassess": {
+      "expected": {
+        "responses": 549,
+        "topics": 13,
+        "units": 4737
+      },
+      "path": "trec/webassess.jsonl",
+      "sha256": "76fd9641fcd6699bdfc601a834c0e3c85f3a8a6a2b49b7c484eadf12bab280ba"
+    },
+    "with_prediction": {
+      "expected": {
+        "responses": 585,
+        "topics": 14,
+        "units": 5020
+      },
+      "path": "trec/with_prediction.jsonl",
+      "sha256": "3224b7f2fadf3635b54f9f87320d557832234253a76600724511a7b1c3724369"
+    },
+    "without_prediction": {
+      "expected": {
+        "responses": 381,
+        "topics": 9,
+        "units": 3406
+      },
+      "path": "trec/without_prediction.jsonl",
+      "sha256": "96a55934dfbfd5c2350d05f83faffe236976e9404931725f014b9107f4f5e373"
+    }
+  }
+}

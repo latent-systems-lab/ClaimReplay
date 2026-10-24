@@ -1,0 +1,14 @@
+{
+  "response_id": "authored:campaign-toy",
+  "metadata": {"dataset": "authored_synthetic"},
+  "units": [
+    {"unit_id":"u1","text":"The fictional report records ten trials.","provenance":{"dataset":"authored_synthetic"},"observable_features":{},"evidence":{"items":[{"evidence_id":"toy:e1","text":"The fictional report records ten trials."}]}},
+    {"unit_id":"u2","text":"The fictional report records twenty trials.","provenance":{"dataset":"authored_synthetic"},"observable_features":{},"evidence":{"items":[{"evidence_id":"toy:e1","text":"The fictional report records ten trials."}]}},
+    {"unit_id":"u3","text":"A third fictional statement has no assessment.","provenance":{"dataset":"authored_synthetic"},"observable_features":{}}
+  ],
+  "gold_assessments": [
+    {"unit_id":"u1","support":"FULL_SUPPORT"},
+    {"unit_id":"u2","support":"NO_SUPPORT"},
+    {"unit_id":"u3","support":"UNASSESSED"}
+  ]
+}
