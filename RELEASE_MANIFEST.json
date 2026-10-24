@@ -29,8 +29,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 762,
-      "sha256": "f3e0604e5048122a362a04be34909e63ca15eb1aa4c0c101cee533e82ba5907b"
+      "bytes": 1059,
+      "sha256": "bdfbcd022c02c43bd01172dbc9e64ed44d780e1bcdb6eace3d1339ac6e2d4ca4"
     },
     {
       "path": "CITATION.cff",
@@ -158,9 +158,14 @@
       "sha256": "154ee08d3c38cc889d418244e94e19f4396effc3d85445b268ad3f76e0eb2238"
     },
     {
+      "path": "claimreplay/reporting.py",
+      "bytes": 9854,
+      "sha256": "21df14d82bd33cf88c4c09cb57d5686d31cf83f88dab0155ecf1bc2a3988fe79"
+    },
+    {
       "path": "claimreplay/reproduce.py",
-      "bytes": 13488,
-      "sha256": "a85ef117a747e9749f986648fc35c6934a118c75f9aa5093f3ff28be4bf553bc"
+      "bytes": 13701,
+      "sha256": "e11f1304c310ff29fd7a41e632df2ad2c976256572f28206425367963a7e14ed"
     },
     {
       "path": "claimreplay/statistics.py",
@@ -234,13 +239,13 @@
     },
     {
       "path": "dist/claimreplay-0.6.0rc2-py3-none-any.whl",
-      "bytes": 74554,
-      "sha256": "09b7dc1a8aed193022d2ed31c389ff85dc6227973b7a9ef05d0549c65a1806b4"
+      "bytes": 78198,
+      "sha256": "978db6fb008332a6a8a0b83633c307312b03ecc89050f802e5a470ea0541be9d"
     },
     {
       "path": "dist/claimreplay-0.6.0rc2.tar.gz",
-      "bytes": 98197,
-      "sha256": "f5a7ed73ca6ded7ce86380072b6fff63b6fe2beaeb8a9b072951156cafa38d41"
+      "bytes": 104204,
+      "sha256": "7a27c12a4b88dd9383f907754c448f0c1e21fe60b623395a2b312ffefc113dad"
     },
     {
       "path": "docs/api_reference.md",
@@ -274,8 +279,13 @@
     },
     {
       "path": "docs/README.md",
-      "bytes": 411,
-      "sha256": "6f2351c70a86cb3cac5fa9d33fb92137825130e4cdcc9728d8ffeec92143b8a5"
+      "bytes": 468,
+      "sha256": "6b8c5064fcaa3bc15bc04676602efff95caf490b1588a889632c276486ad4cf7"
+    },
+    {
+      "path": "docs/result_reporting.md",
+      "bytes": 4314,
+      "sha256": "fb08343a8cb7bda4d909458f550609203f6bd0f9904c5642bb921cccf30a344d"
     },
     {
       "path": "docs/trec_hydration.md",
@@ -354,8 +364,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3226,
-      "sha256": "9d681b91c8326e5d53abd65a9481027d74fa867b67d5d53a0b4b4f01065bc4b2"
+      "bytes": 3295,
+      "sha256": "3f37cc9e694c0e69def8c6aa597ec680279f3f3ae25b8cc723f62b4c076ab6e0"
     },
     {
       "path": "release_tests/test_public_metadata.py",
@@ -374,8 +384,8 @@
     },
     {
       "path": "REPRODUCIBILITY.md",
-      "bytes": 2530,
-      "sha256": "e8b589fe7cf9acf4d7250228abe711739571346ad2374a501f820121dad58f23"
+      "bytes": 2987,
+      "sha256": "b2fd903129b7b2bea1c51cf6b41563f2bd4fcb4b7ea83595dfe1c17dd1f46e04"
     },
     {
       "path": "scripts/extract_trec_segments.py",
@@ -441,6 +451,11 @@
       "path": "tests/test_random_estimand_exhaustive.py",
       "bytes": 2190,
       "sha256": "ba4d789860f19af03c1d3f1c209628e96b153feb22d5ea9057c91f2fa84969c8"
+    },
+    {
+      "path": "tests/test_reporting.py",
+      "bytes": 3929,
+      "sha256": "1d3869d9e7ebb2ba7388dfbd2769415a7fafc8d86c5ce4ffe6b5c0bbc5d7c023"
     },
     {
       "path": "tests/test_reproduction_entrypoint.py",

@@ -61,6 +61,7 @@ them as policy features. Oracle is privileged and diagnostic only.
 - [API reference](docs/api_reference.md)
 - [Data acquisition](DATA_ACCESS.md), [controlled inputs](docs/controlled_data_acquisition.md) and [TREC evidence](docs/trec_hydration.md)
 - [Reproducibility](REPRODUCIBILITY.md) and [optional evidence-aware policies](docs/evidence_aware_policy.md)
+- [Export result tables and budget curves](docs/result_reporting.md)
 - [Contributing](CONTRIBUTING.md), [maintenance](MAINTENANCE.md), [citation](CITATION.cff)
 
 After installation, run `python release_tests/verify_release.py`.

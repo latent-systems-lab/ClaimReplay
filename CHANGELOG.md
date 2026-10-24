@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.6.0rc2 — result reporting
+
+- Add offline CSV/LaTeX table and SVG budget-curve export from completed evaluations.
+- Document input schemas and the distinction between reporting and metric reconstruction.
+- Preserve evaluation semantics; no model inference or benchmark outputs are bundled.
+
 ## 0.6.0rc2 — 2026-10-24
 
 - Provide the lightweight evaluation package, offline wheel/source installation,

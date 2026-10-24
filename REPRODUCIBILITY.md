@@ -28,6 +28,14 @@ TREC conditions stay separate. Controlled claim queues are not coherent generate
 answers. Budgets use a ceiling per response. Missing assessments are not treated
 as negative labels; report selected-assessment coverage alongside recall.
 
+## Tables and figures from completed evaluations
+
+`python -m claimreplay.reporting --replay-results toy-results/synthetic/results.csv --output toy-tables`
+exports CSV, LaTeX and SVG from an existing replay summary. See
+[result reporting](docs/result_reporting.md) for the reference TREC, controlled
+and judge table formats, required columns and explicit reproduction limits.
+This presentation step is not a substitute for computing and validating metrics.
+
 ## Optional model scoring
 
 The default inference backend is deterministic mock scoring:

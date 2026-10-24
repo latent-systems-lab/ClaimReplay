@@ -8,3 +8,4 @@
 - [TREC evidence acquisition](trec_hydration.md)
 - [Evidence-aware policy inputs](evidence_aware_policy.md)
 - [Reproducibility](../REPRODUCIBILITY.md)
+- [Result tables and budget curves](result_reporting.md)
